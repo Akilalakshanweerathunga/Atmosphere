@@ -66,10 +66,10 @@ public class First_page extends FragmentActivity implements LocationListener, On
 
     //create varibles to api link creator
     private final String url = "https://api.openweathermap.org/data/2.5/air_pollution";
-    private final String appid = "c4ed5ac74e73adf2c0d07fae8ad5575c";
+    private final String appid = "Your open weather api";
 
     private final String url1 = "https://api.airvisual.com/v2/nearest_city";
-    private final String appid1 = "ae0096a3-a775-4ece-80fb-b8787d6f3c71";
+    private final String appid1 = "Your IQair api";
     DecimalFormat df = new DecimalFormat("#.##");
 
     @Override
